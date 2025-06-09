@@ -1,0 +1,8 @@
+header p {
+  font-size: 25pt;
+  color: red;
+}
+header nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
