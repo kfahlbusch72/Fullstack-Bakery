@@ -1,8 +1,83 @@
-header p {
-  font-size: 25pt;
-  color: red;
+#box1 {
+  border: 5px solid;
+  width: 250px;
+  height: 75px;
+  font-size: 35px;
+  background-color: greenyellow;
+  border-radius: 15px;
+  display: flex;
+  align-self: center;
 }
-header nav {
-  flex-direction: row;
+
+#box2 {
+  border: 5px solid;
+  width: 290px;
+  height: 50px;
+  font-size: 20px;
+  background-color: yellow;
+  border-radius: 15px;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-right: 1100px;
+}
+
+#box3 {
+  border: solid;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#box4 {
+  border: solid;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#box5 {
+  border: solid;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#box6 {
+  border: solid;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#box7 {
+  border: solid;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+h1 {
+  display: flex;
+  margin-left: 110px;
+}
+figure {
+  background-color: silver;
+}
+
+footer {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: safe;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  overflow: hidden;
+  text-align: center;
 }
